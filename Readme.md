@@ -1,6 +1,6 @@
-# CVision
+# Visora
 
-CVision is a full-stack resume analysis app. Users upload a PDF resume, the backend extracts the text, sends it to Google Gemini for analysis, and stores the result in PostgreSQL. The frontend shows the analysis output and saved resume history.
+Visora is a full-stack resume analysis app. Users upload a PDF resume, the backend extracts the text, sends it to Google Gemini for analysis, and stores the result in PostgreSQL. The frontend shows the analysis, past resumes, and the overall status of each uploaded document.
 
 ## Tech Stack
 
@@ -20,8 +20,8 @@ CVision is a full-stack resume analysis app. Users upload a PDF resume, the back
 ### Install
 
 ```bash
-git clone https://github.com/Anshudh/CVision.git
-cd CVision
+git clone https://github.com/Ishant-Artishu/Visora-AI-Project.git
+cd Visora-AI-Project
 cd backend && npm install
 cd ../frontend && npm install
 ```
@@ -67,7 +67,7 @@ npm start
 
 - The backend auto-creates the `resumes` table on startup.
 - Frontend requests point to the local backend by default.
-- The app uses the CVision title and dark theme branding.
+- The app uses the Visora title and dark theme branding.
 
 ## Deployment
 
